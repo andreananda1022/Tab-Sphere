@@ -1,0 +1,57 @@
+@font-face {
+  font-family: IndieFlower;
+  src: url(../fonts/IndieFlower.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-family:IndieFlower;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0 64px;
+}
+
+.flex{display:flex;}
+.flex-col{flex-direction:column;}
+.justify-center{justify-content:center;}
+.items-center{align-items:center;}
+.gap-32{gap:32px;}
+.bg-dark{background-color:#101010;}
+.bg-none{background:none;}
+.text-light{color:#EAEAEA;}
+.relative{position:relative;}
+.top-6{top:6px;}
+.left-36{left:38px;}
+.w-720{width:720px;}
+.text-16{font-size:16px;}
+.py-8{padding-top:8px;padding-bottom:8px;}
+.pl-44{padding-left:44px;}
+.pr-16{padding-right:16px;}
+.rounded-full{border-radius:1024px;}
